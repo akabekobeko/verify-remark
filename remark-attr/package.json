@@ -1,0 +1,25 @@
+{
+  "name": "verify-remark-attr",
+  "description": "Verify the operation of remark-atte.",
+  "version": "1.0.0",
+  "author": "akabeko",
+  "license": "MIT",
+  "private": true,
+  "main": "index.js",
+  "keywords": [
+    "remark-attr"
+  ],
+  "scripts": {
+    "fig1": "ts-node ./src/atx-header-with-inline.ts"
+  },
+  "dependencies": {
+    "@types/node": "^14.14.31",
+    "rehype-stringify": "^8.0.0",
+    "remark-attr": "^0.11.1",
+    "remark-parse": "^8.0.2",
+    "remark-rehype": "^8.0.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.2",
+    "unified": "^9.2.1"
+  }
+}
